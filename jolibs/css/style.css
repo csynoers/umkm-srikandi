@@ -1,0 +1,262 @@
+body {
+  padding-top: 70px
+}
+
+#side-menu li{
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.slide-image {
+  width: 100%;
+}
+
+.carousel-holder {
+  margin-bottom: 30px;
+}
+
+.carousel-control,.item {
+  border-radius: 4px;
+}
+
+.caption {
+  height: auto;
+  overflow: hidden;
+}
+
+.caption h4 {
+  /*white-space: nowrap;*/
+  white-space: none;
+}
+
+.thumbnail img .subkategori img{
+	width: 223px;
+	height: 154px;
+}
+
+.ratings {
+  color: #d17581;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.thumbnail {
+  padding: 0;
+  min-height: 260px;
+}
+
+.subkategori {
+  padding: 0;
+  min-height: 200px;
+}
+
+.thumbnail .caption-full .subkategori {
+  padding: 9px;
+  color: #333;
+}
+
+footer {
+  margin: 50px 0;
+  border-top: 3px solid #B81D22;
+  padding: 5px;
+}
+
+.logo{
+	margin-bottom: -8px;
+}
+
+.logo img{
+	width: 100%;
+}
+
+.shopping{
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	float: left;
+	background: #ddd;
+}
+
+.shopping a{
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	float: left;
+	background: #B81D22;
+	color:#fff;
+	padding: 4px;
+	margin-right: 2px;
+}
+
+.shopping a:hover{
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	float: left;
+	background: #ddd;
+	color: #B81D22;
+}
+
+.hasil p{
+	color: #fff;
+	width: 90px;
+	height: 22px;
+	border-radius: 5px;
+	background: #B81D22;
+	margin-top: 7px;
+}
+
+/* sidebar */
+/* Sidebar Menu Styles */
+
+.navbar-static-side ul li {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.sidebar-search {
+    padding: 15px;
+}
+
+.arrow {
+    float: right;
+}
+
+.fa.arrow:before {
+    content: "\f104";
+}
+
+.active > a > .fa.arrow:before {
+    content: "\f107";
+}
+
+.nav-second-level li,
+.nav-third-level li {
+    border-bottom: none !important;
+}
+
+.nav-second-level li a {
+    padding-left: 37px;
+}
+
+.nav-third-level li a {
+    padding-left: 52px;
+}
+
+@media(min-width:768px) {
+    .navbar-static-side {
+        z-index: 1;
+        position: absolute;
+        width: 250px;
+        margin-top: 51px;
+    }
+
+    .navbar-top-links .dropdown-messages,
+    .navbar-top-links .dropdown-tasks,
+    .navbar-top-links .dropdown-alerts {
+        margin-left: auto;
+    }
+}
+
+
+@media(max-width:767px) {
+    .sidebar-collapse {
+        max-height: 200px;
+        overflow-y: none;
+		margin-bottom: 10px;
+}.logo{position: absolute;}
+
+}
+
+.sidebar li{
+	background-color: #f8f8f8;
+}
+
+.keterangan{
+	margin-top: 10px;
+}
+
+.detail img{
+	width: 100%;
+	height: auto;
+}
+
+.sosmed img{
+	width: 30px;
+}
+
+.promo{
+	width: 48px;
+	height: 32px;
+	background: #3B8944;
+	color: #fff;
+	border-radius: 0px 0px 5px 0px;
+	padding: 3px;
+	position: absolute;
+	z-index: 9;
+}
+
+.terlaris{
+	width: 55px;
+	height: 32px;
+	background: #1682C7;
+	color: #fff;
+	border-radius: 0px 0px 5px 0px;
+	padding: 3px;
+	position: absolute;
+	z-index: 9;
+}
+
+.cs img{
+	width: 110px;
+	height: auto;
+}
+
+/* slider */
+.slider {
+  position: relative;
+  z-index: 1;
+  padding: 0;
+}
+.camera_wrap {
+  margin-bottom: 0 !important;
+}
+.camera_thumb {
+  width: 150px;
+  height: auto;
+}
+.camera_wrap .camera_pag {
+  position: absolute;
+  bottom: 15px;
+  z-index: 999;
+  left:10px;
+}
+.camera_wrap .camera_pag .camera_pag_ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.camera_wrap .camera_pag .camera_pag_ul li > span {
+  display: none;
+}
+.camera_wrap .camera_pag .camera_pag_ul li {
+  background: #E45C61;
+  width: 16px;
+  height: 16px;
+  display: block;
+  float: left;
+  margin-right: 6px;
+  cursor: pointer;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+.camera_wrap .camera_pag .camera_pag_ul li:hover {
+  background: #B81D22;
+}
+.camera_wrap .camera_pag .camera_pag_ul li.cameracurrent {
+  background: #B81D22;
+  cursor: default;
+}
+.camera_caption {
+  display: none;
+}

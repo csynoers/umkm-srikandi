@@ -1,0 +1,49 @@
+RewriteEngine On
+
+#Navigasi menu Header
+
+RewriteRule ^umkmsrikandimataram\.html$ media.php?mod=home [L]
+RewriteRule ^about-umkmsrikandimataram\.html$ media.php?mod=about [L]
+#RewriteRule ^king-pheromone-technologys\.html$ media.php?mod=technology [L]
+#RewriteRule ^articles\.html$ media.php?mod=articles [L]
+#RewriteRule ^detail-articles(.*)-(.*)\.html$ media.php?mod=detail_articles&seo=$1&id=$2 [L]
+
+#RewriteRule ^human-king-pheromone-questions-answers\.html$ media.php?mod=faqs [L]
+RewriteRule ^contact-umkmsrikandimataram\.html$ media.php?mod=contact [L]
+RewriteRule ^send_message\.html$ aksi_kontak.php [L]
+RewriteRule ^join-reseller\.html$ media.php?mod=tos [L]
+RewriteRule ^how-to-order\.html$ media.php?mod=howtoorder [L]
+
+#confirm
+RewriteRule ^payment-confirmation\.html$ media.php?mod=payment_confirm [L]
+RewriteRule ^comfirm-umkmsrikandimataram\.html$ media.php?mod=confirm_detail [L]
+
+#testimoni
+RewriteRule ^testimoni-umkmsrikandimataram\.html$ media.php?mod=testimoni [L]
+RewriteRule ^testimoni-detail(.*)\.html$ media.php?mod=testimoni_detail&id=$1 [L]
+
+#produk
+RewriteRule ^product-umkmsrikandimataram\.html$ media.php?mod=product [L]
+RewriteRule ^product-detail-(.*)-(.*)\.html$ media.php?mod=product_detail&seo=$1&id=$2 [L]
+#byCategory and bySubcategory
+RewriteRule ^category-(.*)-(.*)\.html$ media.php?mod=product_bycategory&seo=$1&id=$2 [L]
+RewriteRule ^subcategory-(.*)-(.*)\.html$ media.php?mod=product_bysubcategory&seo=$1&id=$2 [L]
+RewriteRule ^bytag-(.*)\.html$ media.php?mod=product_bytag&id=$1 [L]
+
+#Shopping Cart
+RewriteRule ^cart-umkmsrikandimataram\.html$ media.php?mod=cart [L]
+RewriteRule ^add-into-cart\.html$ media.php?mod=add_into_cart [L]
+RewriteRule ^update-cart\.html$ media.php?mod=update_cart [L]
+RewriteRule ^delete-cart(.*)\.html$ media.php?mod=delete_cart&id=$1 [L]
+
+#Checkout
+RewriteRule ^checkout\.html$ media.php?mod=checkout [L]
+
+#Order Aksi
+RewriteRule ^order-umkmsrikandimataram\.html$ media.php?mod=order [L]
+
+#Searching
+RewriteRule ^searching\.html$ media.php?mod=cari [L]
+
+#Searching
+RewriteRule ^cek_ongkir\.html$ media.php?mod=cek_ongkir [L]

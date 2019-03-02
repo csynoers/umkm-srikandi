@@ -1,0 +1,1 @@
+[24-Mar-2017 05:41:37 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/alifahij/public_html/josys/koneksi.php on line 9
